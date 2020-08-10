@@ -1,0 +1,203 @@
+@keyframes example {
+    from {top: 0%;}
+    to {top: 45%; }
+}
+
+.an {
+    right: 0px;
+    position: fixed;
+    animation-name: example;
+    animation-duration: 4s;  
+    animation-fill-mode: forwards;
+    background-color: #93b8d7;
+}
+
+.form {
+ text-align: center;
+}
+
+
+nav a img{
+    color: black;
+    font-size: 2.5rem;
+    margin-right: .5em;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0;
+}
+h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+h2{
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+    text-align: center;
+}
+li{
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+}
+.conclusion{
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+header  {
+  line-height: 1.5;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+th {
+    height: 2rem;
+    text-align: left;
+    color: white;
+    background-color: #93b8d7;
+}
+
+th,td {
+    padding: .5em;
+}
+
+tr {
+    color: white;
+}
+
+td>a{
+   color: white; 
+}
+
+
+
+
+
+
+section {
+        display: inline-block;    
+    }
+section.table{
+    position: absolute;
+}
+section.map {
+    position: relative;
+}
+footer {
+    padding-top: 1rem;
+    font-size: 80%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boxes > div {
+    flex: 0 0 250px;
+    flex-shrink: 0;
+    background-color: #93b8d7;
+    color: white;
+    margin: .5rem;
+    border-radius: 10px;
+}
+body {
+    margin: .5rem;
+    background-color: #93b8d7;
+    color: white;
+}
+
+
+
+
+
+
+
+  
+@media (min-width: 768px) {
+    body {
+        background-position: center;
+        background-size: cover;
+    }
+    html {
+        height: 100%;
+        }
+    }
+    
+@media (min-width: 992px) {
+    body {
+            position: center;
+            size: cover;
+}
+}
+    
+@media (min-width: 1200px) {
+    body {
+            position: center;
+            size: cover;
+        }
+      }
+    
+    
+@media (min-width: 768px) {
+        body {
+            background-position: center;
+            background-size: cover;
+        }
+        html {
+            height: 100%;
+        }
+      
+    }
+    
+@media (min-width: 992px) {
+      body {
+          position: center;
+          size: cover;
+      }
+      nav a {
+          font-size: 1.5rem;
+      }
+      h1 {
+          font-size: 3rem;
+      }
+      h2 {
+          font-size: 2rem;
+      }
+    }
+    
+@media (min-width: 1200px) {
+      body {
+          position: center;
+          size: cover;
+      }
+    }
+@media (max-width: 700px) {
+    footer {
+        display: none;
+    }
+
+}
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+}
+button.btn-primary {
+    margin-top: .5rem;
+}
+

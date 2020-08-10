@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Feiyang Yu">
+    <meta name="description" content="project2">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Marysville School District</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="https://www.adazing.com/wp-content/uploads/2019/02/open-book-clipart-04-300x300.png">
+    <link href="css/style1.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="img/home.png" alt="home"></img></a>
+    </nav>
+    <header>
+    <h1>Fact About Marysville School District</h1>
+    </header>
+
+    <main>
+        <section>
+            <ul>
+                <li>If this district has above state average enrollment of 
+                  students from Low-income families? Yes</li>
+                <li>If this district has below state average accessibility 
+                  to levy and LEA resources? Yes</li>
+            </ul>
+            <p class="conclusion">This is a district needs your help!! Step3: Make a donation.
+              <img class="conclusion" src="img/emergency.png" alt="image map" width="40" height="40"
+              style="vertical-align:middle"></p>
+      
+      
+        </section>
+
+
+        <div class="an">
+        <form id="signUpForm" class="form" novalidate>
+            <div class="form-group row">
+                <label for="name" class="col-lg-1">Name</label>
+                <div class="col-lg-11">
+                  <input type="name" id="nameInput" class="form-control" required>
+                  <div id="nameFeedback" class="invalid-feedback"></div>
+                </div>
+              </div>
+            <div class="form-group row">
+              <label for="emailInput" class="col-lg-1">Email</label>
+              <div class="col-lg-11">
+                <input type="email" id="emailInput" class="form-control" required>
+                <div class="invalid-feedback">Please provide a valid email</div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="donation amount" class="col-lg-1">Amount</label>
+              <div class="col-lg-11">
+                <input type="amount" id="amountInput" class="form-control" minLength=1 required>
+                <div id="amountFeedback" class="invalid-feedback"></div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="cardnumber" class="col-lg-1">Card Number</label>
+              <div class="col-lg-11">
+                <input type="cardnumber" id="cardnumberInput" class="form-control" required>
+                <div id="cardnumberFeedback" class="invalid-feedback">Please provide a valid card number</div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="billingadress" class="col-lg-1">Billing Address</label>
+              <div class="col-lg-11">
+                <input type="billingaddress" id="billingaddressInput" class="form-control" required>
+                <div id="billingaddressFeedback" class="invalid-feedback"></div>
+              </div>
+            </div>
+        <button type="submit" class="btn btn-primary">Make your donation</button>
+          </div>
+
+
+
+        <footer>
+          <address>
+              Contact me at <a href="mailto:feiyay@uw.edu">feiyay@uw.edu</a>, or at 
+              <a href="tel:555-123-4567">(555) 123-4567</a>.
+            </address>
+            <p>&copy; 2020 Feiyang Yu.</p>
+      </footer>
+    </main>
+
+
+</body>
+</html>
