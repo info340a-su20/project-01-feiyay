@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Feiyang Yu">
+    <meta name="description" content="About page">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>About</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" 
+      type="image/png" 
+      href="https://www.adazing.com/wp-content/uploads/2019/02/open-book-clipart-04-300x300.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style2.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="navbar   navbar-light bg-light">
+                <div class="navbar-expand-sm" type="button">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="main.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown dmenu">
+                        <a class="nav-link dropdown-toggle" href="#">
+                          Area
+                        </a>
+                        <div class="dropdown-menu sm-menu">
+                          <a class="dropdown-item" href="Seattle.html">Seattle</a>
+                          <a class="dropdown-item" href="Bellevue.html">Bellevue</a>
+                          <a class="dropdown-item" href="Renton.html">Renton</a>
+                          <a class="dropdown-item" href="Highline.html">Highline</a>
+                          <a class="dropdown-item" href="Shoreline.html">Shoreline</a>
+                          <a class="dropdown-item" href="Tukwila.html">Tukwila</a>
+                          <a class="dropdown-item" href="Mercerisland.html">Mercer Island</a>
+
+                        </div>
+                      </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="Contactus.html">Contact Us</a>
+                    </li>
+                 </ul>
+                </div>
+              </nav>
+            <h1><p>What should be known about our public school funds?</p></h1>
+        </header>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OB8IdLEdJdE" 
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+        picture-in-picture" allowfullscreen></iframe>
+        <hr>
+
+        <div class="About">
+            <div class="row">
+                <div class="col-md-6 how-img">
+                    <img src="img/fund.jpg" class="rounded-circle img-fluid" alt="fund" id="fund">
+                </div>
+                <div class="col-md-6">
+                    <h4>Federal And State Education Budget</h4>
+                <p>Federal and state education budget is one of the biggest financial resources
+                    of our public schools. Each year the state government distibutes certain amount
+                    of money to improve and maintain the education quality. Washington state 
+                    Legislature passed a new public education budget plan in 2019 which intends to 
+                    increase the budget amounts for school districts in poor areas.
+                </p>
+                </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Levy And LEA Resources</h4>      
+                    <p>Local levy is another essential financial resource of school district.
+                       Certain amount of local commercial and property tax are being used 
+                       for education. The overall amount can vary depends on local
+                       economic situation and property price. It becomes the biggest
+                       reason of the existing public school budget gap.
+
+                    </p>
+                </div>
+                <div class="col-md-6 how-img">
+                    <img src="img/tax.png" class="rounded-circle img-fluid" alt="levy" id="levy">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 how-img">
+                    <img src="img/lowincome.jpg" class="rounded-circle img-fluid" alt="lowincome" id="lowincome">
+                </div>
+                <div class="col-md-6">
+                    <h4>The Enrollment Of Students From Low Income Families</h4>              
+                <p>A lot of school districts enroll a large share of students living
+                    in low income families. The lacking of support from families reqiures
+                    public schools bank more budget in order to maintain their student life.
+                </p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="container">
+            <h2>Find district(s) by feature</h2>
+            <p>Type the key term(low-income, levy, or funding) to find out which school districts have this kind of problem:</p>  
+            <input class="form-control" id="myInput" type="text" placeholder="Search">
+            <br>
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>District Name</th>
+                  <th>Enrollment of Students from Low-income Families</th>
+                  <th>Levy Resources per Student</th>
+                  <th>State and Local funding per Studnet</th>
+                </tr>
+              </thead>
+              <tbody id="myTable">
+                <tr>
+                  <td>Seattle</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                    <td>Bellevue</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Renton</td>
+                    <td>has above average enrollment of low-income family students</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Highline</td>
+                    <td>has above average enrollment of low-income family students</td>
+                    <td>has less levy resources</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Shoreline</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Tukwila</td>
+                    <td>has above average enrollment of low-income family students</td>
+                    <td>has less levy resources</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Mercer Island</td>
+                    <td></td>
+                    <td></td>
+                    <td>has less state and local funding(less than $13500 per pupil)</td>
+                  </tr>
+              </tbody>
+            </table>
+            
+
+
+        <footer>         
+            <p>&copy; 2020 Feiyang Yu.</p>
+        </footer>
+    </main>
+    <script src="js/filter.js"></script>
+</body>

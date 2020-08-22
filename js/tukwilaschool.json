@@ -1,0 +1,7 @@
+var school,i,x="";
+school = [{"name":"Foster", "type":"High"},{"name":"Showalter", "type":"Middle"}
+    ,{"name":"Cascade View", "type":"Elementary"},{"name":"Thorndyke", "type":"Elementary"}];
+for (i in school) {
+    x += school[i].name +" "+school[i].type+" School"+ "<br>";
+  }
+  document.getElementById("schoollist").innerHTML = x;

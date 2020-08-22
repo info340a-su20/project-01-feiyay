@@ -1,0 +1,7 @@
+var school,i,x="";
+school = [{"name":"Mount Rainier", "type":"High"},{"name":"Evergreen", "type":"High"},{"name":"Chinook", "type":"Middle"}
+    ,{"name":"Pacific", "type":"Middle"},{"name":"Shorewood", "type":"Elementary"},{"name":"Madrona", "type":"Elementary"}];
+for (i in school) {
+    x += school[i].name +" "+school[i].type+" School"+ "<br>";
+  }
+  document.getElementById("schoollist").innerHTML = x;

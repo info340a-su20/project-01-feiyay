@@ -1,0 +1,123 @@
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.my-input {
+    box-shadow: 0 0.5px 1px inset;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.boxes > div {
+    flex: 0 0 250px;
+    flex-shrink: 0;
+    background-color: white;
+    margin: .5rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
+  }
+  
+  .boxes p {
+    padding: .5rem 1rem;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  main > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  div > section {
+    padding: 1em;
+    flex: 1;
+    flex-basis: 0;
+  
+  }
+  div > img {
+      height: 50%;
+      position: relative;
+      margin-left: 5rem;
+      margin-top: .5rem;
+  }
+  div >p {
+      margin-left: 2rem;
+      margin-top: .5rem;
+  }
+
+  p{
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  footer > p {
+    text-align: left;
+    padding-top: 2rem;
+    font-size: 80%;
+  }
+  h1 >p {
+    text-align: center;
+  }
+
+.About{
+  margin-top:-15%;
+  padding: 10%;
+}
+.About .row{
+  margin-top: 10%;
+
+}
+
+.how-img{
+    text-align: center;
+}
+.how-img img{
+  width: 90%;
+}
+h4{
+  text-align: center;
+}
+#lowincome{
+  margin: 0%;
+  width: 70%;
+  height: 70%;
+}
+#levy{
+  width: 90%;
+  height: 90%;
+  margin: 0%;
+}
+
+iframe {
+  margin-top: 2.5%;
+  margin-left: 30%;
+}
+
+hr {
+  width: 50%;
+}
+.list{
+  width: 80%;
+  margin-left: 10%;
+}
+ol{
+  margin-left: 10%;
+}
+
+
+@media (max-width: 800px) {
+  iframe{
+    margin-left: 20%;
+    width: 300px;
+    height: 200px;
+  }
+
+}

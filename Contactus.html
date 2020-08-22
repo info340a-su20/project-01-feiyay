@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="author" content="Feiyang Yu">
-    <meta name="description" content="Seattle page">
+    <meta name="description" content="Contactus page">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Seattle</title>
+    <title>Contact us</title>
     <link rel="icon" 
       type="image/png" 
       href="https://www.adazing.com/wp-content/uploads/2019/02/open-book-clipart-04-300x300.png">
@@ -47,35 +47,47 @@
                  </ul>
                 </div>
               </nav>
-            <h1><p>Seattle School District</p></h1>
         </header>
-        
-        
-            
-            <p>Expected total state and local student funding per pupil(2020-2021): $14745</p>
-            <p>Amount of levy resources per $1.00 of levy tax per student: more than $2500</p>
-            <p>Enrollment of low-income family students: below state average</p>
-            
-        
-          
-        
-        <p>School in this distict(Part):</p>
-        <p id="schoollist"></p>
-    
-
-  
-  
+        <div class="container">
+            <div class="col-md-6 mx-auto text-center">
+                <div class="header-title">
+                   <h1 class="wv-heading--title">
+                      Contact Us
+                   </h1>
+                   <h2 class="wv-heading--subtitle">
+                      If you have any questions about this webiste, leave your information below, we will contact you ASAP.
+                   </h2>
+                </div>
+             </div>
 
 
 
 
-
-
+             <div class="myform form ">
+                <form action="" method="post" name="login">
+                   <div class="form-group">
+                      <input type="text" name="name"  class="form-control my-input" id="name" placeholder="Name">
+                   </div>
+                   <div class="form-group">
+                      <input type="email" name="email"  class="form-control my-input" id="email" placeholder="Email">
+                   </div>
+                   <div class="form-group">
+                    <input type="number" name="phone"  class="form-control my-input" id="Phone" placeholder="Phone">
+                 </div>
+                   <div class="form-group">
+                    
+                    <textarea name="message" rows="3" cols="30" class="form-control my-input" placeholder="Comment"></textarea>
+                   </div>
+                   <div class="text-center ">
+                      <button type="submit" class=" btn btn-block send-button tx-tfm">Send</button>
+                   </div>
+                </form>
+            </div>
+        </div>
 
 
         <footer>         
          <p>&copy; 2020 Feiyang Yu.</p>
         </footer>
     </main>
-    <script src="js/seattleschool.json"></script>
 </body>
